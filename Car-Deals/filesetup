@@ -1,0 +1,46 @@
+/backend
+│
+├── controllers
+│   ├── authController.js
+│   ├── carController.js
+│   ├── dealController.js
+│   └── dealershipController.js
+│
+├── db
+│   └── index.js
+│
+├── models
+│   ├── adminModel.js
+│   ├── carModel.js
+│   ├── dealModel.js
+│   └── dealershipModel.js
+│
+├── routes
+│   └── index.js
+│
+├── services
+│   └── authService.js
+│
+├── index.js
+└── config.js
+
+/frontend
+│
+├── src
+│   │
+│   ├── components
+│   │   ├── AuthForm.svelte
+│   │   ├── Dashboard.svelte
+│   │   └── VehicleCard.svelte
+│   │
+│   ├── routes
+│   │   ├── Auth.svelte
+│   │   ├── Dashboard.svelte
+│   │   └── Home.svelte
+│   │
+│   ├── App.svelte
+│   └── main.js
+│
+└── public
+    ├── index.html
+    └── global.css
